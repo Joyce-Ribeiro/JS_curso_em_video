@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        Verificador de Idade
+    </header>
+    <section>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="nasc" id="nasc">
+            </p>
+        </div>
+        <div id="sexo">
+            <p>
+                Sexo: <input type="radio" name="rad" id="mas">
+                <label for="mas">Masculino</label>
+                <input type="radio" name="rad" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+        </div>
+        <div id="btn">
+            <button onclick="verificar()">Verificar</button>
+        </div>
+        <div id="msg">
+            <p>
+                Preencha os dados acima para ver o resultado!
+            </p>
+        </div>
+        <div id="imgs">
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Joyce Xavier</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
